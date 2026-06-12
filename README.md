@@ -32,7 +32,7 @@ Filters are evaluated in order and evaluation stops at the **first matching filt
 | `expression` | array of strings | no | Regular expressions matched against the header value. An empty array is a catch-all. |
 | `ip_ranges_allowed` | array of strings | yes | IPv4 addresses or CIDR ranges (e.g. `192.168.0.0/24`) that are allowed when the expression matches. |
 
-> **Regex matching** Not: anchor your expressions with `^` and `$` if you need a full-string match (e.g. `^test$`).
+> **Regex matching** Note: anchor your expressions with `^` and `$` if you need a full-string match (e.g. `^test$`).
 
 ## Installation
 
